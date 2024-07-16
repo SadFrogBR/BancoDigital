@@ -28,7 +28,7 @@ public class Banco {
 		return contas;
 	}
 
-	public void addContas(Conta conta) {
+	protected void addContas(Conta conta) {
 		this.contas.add(conta);
 	}
 

@@ -9,12 +9,15 @@ public abstract class Conta implements Iconta{
 	protected int numero;
 	protected double saldo;
 	protected Cliente cliente;
+	protected Banco banco;
 	
 	
-	public Conta(Cliente cliente) {
+	public Conta(Cliente cliente, Banco banco) {
 		this.agencia = AGENCIA_PADRAO;
 		this.numero = SEQUENCIAL++;
 		this.cliente = cliente;
+		this.banco = banco;
+		banco.addContas(this);
 	}
 	
 	public int getAgencia() {

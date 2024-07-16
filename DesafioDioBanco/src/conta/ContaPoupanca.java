@@ -2,8 +2,8 @@ package conta;
 
 public class ContaPoupanca extends Conta{
 
-	public ContaPoupanca(Cliente cliente) {
-		super(cliente);
+	public ContaPoupanca(Cliente cliente, Banco banco) {
+		super(cliente, banco);
 		// TODO Auto-generated constructor stub
 	}
 
