@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="conta.ContaCorrente"/>
+    <fullyQualifiedTypeName name="conta.ContaPoupanca"/>
+    <fullyQualifiedTypeName name="conta.Cliente"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="conta.Banco"/>
+    <fullyQualifiedTypeName name="Transacao"/>
+    <fullyQualifiedTypeName name="CofreDigital"/>
+    <fullyQualifiedTypeName name="CofreFisico"/>
+</qualifiedTypeNameHistroy>
